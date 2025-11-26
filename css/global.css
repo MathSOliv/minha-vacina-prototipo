@@ -1,0 +1,138 @@
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===== HEADER ===== */
+header {
+    width: 100%;
+    background: #0d6efd;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo h1 {
+    color: white;
+    font-size: 26px;
+}
+
+/* Navbar */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    opacity: 0.8;
+}
+
+/* ===== HERO ===== */
+.hero {
+    height: 70vh;
+    background: linear-gradient(to bottom right, #0d6efd, #4e9cff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    opacity: 0.9;
+    margin-bottom: 25px;
+}
+
+.btn-primary {
+    background: white;
+    color: #0d6efd;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background: #e8e8e8;
+}
+
+/* ===== SEÇÃO DESTAQUES ===== */
+.features {
+    padding: 60px 0;
+}
+
+.features .container {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.features h3 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 280px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h4 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.card p {
+    font-size: 15px;
+    color: #444;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background: #0d6efd;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}

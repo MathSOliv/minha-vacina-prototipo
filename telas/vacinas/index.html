@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhas Vacinas - Minha Vacina</title>
+    <link rel="stylesheet" href="../../css/global.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="container-logo">
+            <img src="https://images.vexels.com/media/users/3/200604/isolated/preview/af2e307d1f1ed5c740162f52ddda4a9e-cor-de-seringa-de-hospital.png" alt="Logo Minha Vacina" class="logo" >
+        </div>
+        <nav class="nav_menu">
+            <div class="nav_button"><a href="../../index.html">Início</a></div>
+            <div class="nav_button"><a href="index.html">Minhas Vacinas</a></div>
+            <div class="nav_button"><a href="../campanhas/index.html">Campanhas Próximas</a></div>
+        </nav>
+    </header>
+
+    <section class="hero hero-small">
+        <div class="hero-content">
+            <h2>Minhas Vacinas</h2>
+            <p>Acompanhe seu calendário vacinal e veja o status de cada vacina.</p>
+        </div>
+    </section>
+
+    <section class="usuario-info">
+        <div class="info-card">
+            <p><strong>Nome:</strong> Matheus Oliveira</p>
+            <p><strong>Matrícula:</strong> 123456</p>
+            <p><strong>Idade:</strong> 25 anos</p>
+        </div>
+    </section>
+
+    <section class="tabela-vacinas">
+        <table>
+            <thead>
+                <tr>
+                    <th>Vacina</th>
+                    <th>Data da última dose</th>
+                    <th>Próxima dose</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody id="vacinas-body"></tbody>
+        </table>
+    </section>
+
+    <section class="voltar-home">
+        <a href="../../index.html" class="hero-btn">Voltar à Início</a>
+    </section>
+
+    <script src="index.js" defer></script>
+
+</body>
+</html>
